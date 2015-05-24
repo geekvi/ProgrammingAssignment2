@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-## This file contains two functions makeCacheMatrix and 
+## This file contains two functions makeCacheMatrix and cacheSolve
 ##
 
 ## Write a short comment describing this function
@@ -8,7 +8,7 @@
 ##  This function has four operations set,get, setmatrix, getmatrix
 ##  It will use a seapate environement to cache   
 ##  setmatrix will use solve() and will need an argument
-##
+## 
 makeCacheMatrix <- function(x = matrix()) {
   mat<-NULL
   set<-function(y){
